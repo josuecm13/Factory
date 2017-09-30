@@ -1,0 +1,4 @@
+#include "mezcladora.h"
+
+Mezcladora::Mezcladora(){
+}
