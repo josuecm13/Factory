@@ -29,14 +29,16 @@ SOURCES += \
     galleta.cpp \
     camion.cpp \
     mezcladoram.cpp \
-    almacen.cpp
+    almacen.cpp \
+    thread.cpp
 
 HEADERS += \
         mainwindow.h \
     galleta.h \
     camion.h \
     mezcladoram.h \
-    almacen.h
+    almacen.h \
+    thread.h
 
 FORMS += \
         mainwindow.ui

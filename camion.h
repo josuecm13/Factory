@@ -1,3 +1,5 @@
+#include <cstddef>
+
 struct Carga{
     int destino;
     int cantidad;

@@ -1,7 +1,7 @@
 #include "mezcladoram.h"
 
 MezcladoraMasa::MezcladoraMasa(){
-    ups = cantidad = min = max = 0;
+    ups = cantidad = minimo = maximo = 0;
 }
 
 MezcladoraMasa::MezcladoraMasa(int min, int max){
