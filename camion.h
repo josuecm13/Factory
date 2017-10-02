@@ -1,3 +1,5 @@
+#ifndef CAMION_H
+#define CAMION_H
 #include <cstddef>
 
 struct Carga{
@@ -16,7 +18,8 @@ struct Carga{
 
 };
 
-struct Camion{
+struct Camion
+{
     Carga* frente;
     Carga* fondo;
 
@@ -26,3 +29,5 @@ struct Camion{
 
     Camion();
 };
+
+#endif // CAMION_H

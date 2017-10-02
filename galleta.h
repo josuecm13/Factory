@@ -1,11 +1,16 @@
-#include<stdlib.h>
+#ifndef GALLETA_H
+#define GALLETA_H
+#include <cstddef>
+
 
 struct Galleta
 {
+public:
+    Galleta();
+    Galleta(int cantMasa, int cantChoco);
     int masa;
     int choco;
 
-    Galleta();
-    Galleta(int cantMasa, int cantChoco);
-
 };
+
+#endif // GALLETA_H

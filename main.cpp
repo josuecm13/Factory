@@ -1,7 +1,6 @@
 #include "mainwindow.h"
 #include <QApplication>
-#include "thread.h"
-
+#include "thread.cpp"
 
 int main(int argc, char *argv[])
 {
@@ -9,10 +8,9 @@ int main(int argc, char *argv[])
     MainWindow w;
     //w.show();
 
-    Thread hilo;
-    hilo.nombre = "La Progra";
-    hilo.start();
-
+    Thread h;
+    h.nombre = "pene";
+    h.start();
 
     return a.exec();
 }

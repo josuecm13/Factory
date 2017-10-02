@@ -1,6 +1,7 @@
 #include "galleta.h"
 
-Galleta::Galleta(){
+Galleta::Galleta()
+{
     masa = choco = NULL;
 }
 

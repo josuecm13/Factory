@@ -1,4 +1,4 @@
-#include "mezcladoram.h"
+#include "mezcladoramasa.h"
 
 MezcladoraMasa::MezcladoraMasa(){
     ups = cantidad = minimo = maximo = 0;

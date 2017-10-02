@@ -1,6 +1,7 @@
 #include "camion.h"
 
-Camion::Camion(){
+Camion::Camion()
+{
     frente = fondo = NULL;
 }
 

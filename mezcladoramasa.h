@@ -1,3 +1,7 @@
+#ifndef MEZCLADORAMASA_H
+#define MEZCLADORAMASA_H
+
+
 struct Masa{
     float gramos;
     Masa() {}
@@ -17,3 +21,5 @@ struct MezcladoraMasa{
     void insertarMasa(int cant);
     Masa* procesa();
 };
+
+#endif // MEZCLADORAMASA_H

@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2017-09-25T17:53:11
+# Project created by QtCreator 2017-10-01T19:49:36
 #
 #-------------------------------------------------
 
@@ -8,7 +8,7 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = Factory
+TARGET = Fabrica
 TEMPLATE = app
 
 # The following define makes your compiler emit warnings if you use
@@ -26,22 +26,24 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         main.cpp \
         mainwindow.cpp \
-    galleta.cpp \
     camion.cpp \
-    mezcladoram.cpp \
+    galleta.cpp \
     almacen.cpp \
+    mezcladoramasa.cpp \
+    mezcladorachocolate.cpp \
     thread.cpp
 
 HEADERS += \
         mainwindow.h \
-    galleta.h \
     camion.h \
-    mezcladoram.h \
+    galleta.h \
     almacen.h \
+    mezcladoramasa.h \
+    mezcladorachocolate.h \
     thread.h
 
 FORMS += \
         mainwindow.ui
 
-STATECHARTS += \
-    idk.scxml
+RESOURCES += \
+    imagenes.qrc
